@@ -11,7 +11,7 @@ body{
 
 .whole-page{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     margin: 0.5em auto;
 }
 #image-part{
@@ -19,14 +19,14 @@ body{
     background-image: url(/images/philip-oroni-3er4tNSPPoc-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 100vh;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     opacity: 0.9;
 }
 .overlay{
     position: absolute;
-    top: 68%;
+    top: 65%;
     margin: 0 2.5rem;
 }
 .overlay h2{
@@ -49,28 +49,28 @@ body{
     background-color:  rgb(246, 247, 248);
 }
 .right-content-style{
-    margin: 3em 2em;
+    margin: 1em 2em;
 }
 .right-content h1{
     color: rgba(131, 72, 5, 0.897);
     font-size: 2.5rem;
     text-align: center;
-    margin: 1.5em 0;
+    margin: 1em 0;
     font-weight: 600;
     font-style: italic;
     font-family: 'Dancing Script', cursive;
 
 }
 .right-content h2{
-    font-size: 1.5rem;
-    margin-bottom: 1.3em;
+    font-size: 1.2rem;
+    margin-bottom: 0.8em;
 }
 form{
     margin-left: 3em;
-    margin-bottom: 1.3em;
+    margin-bottom: 0.8em;
 }
 label input{
-    margin-bottom: 1.3em;
+    margin-bottom: 0.8em;
     
 }
 input{
@@ -82,7 +82,7 @@ input{
     background-color: rgb(246, 247, 248);
 }
 label{
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 .forgot-password{
     text-align: right;
@@ -104,7 +104,7 @@ button{
     
 .but{
     text-align: center;
-    margin-top: 1.8em;
+    margin-top: 1em;
 
 }
 img{
@@ -116,7 +116,7 @@ img span{
 }
 .img-style{
     text-align: center;
-    margin: 1.8em 0;
+    margin: 1.5em 0;
 }
 .footer{
     text-align: center;
