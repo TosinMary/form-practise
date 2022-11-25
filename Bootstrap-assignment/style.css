@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora&display=swap');
+body{
+    font-family: 'Lora', serif;
+}
+.bg{
+    background-color: rgb(239, 234, 234);
+}
+
+
+.whole-page{
+    width: 100%;
+    height: 120vh;
+    margin: 0.5em auto;
+}
+#image-part{
+    position: relative;
+    background-image: url(/Bootstrap-assignment/images/philip-oroni-3er4tNSPPoc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    opacity: 0.9;
+}
+.overlay{
+    position: absolute;
+    top: 68%;
+    margin: 0 2.5rem;
+}
+.overlay h2{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-weight: 2500;
+    opacity: 0.7;
+}
+.overlay p{
+    color: antiquewhite;
+    line-height: 2rem;
+    opacity: 0.7;
+}
+.dot{
+    font-size: 4rem;
+    color: antiquewhite;
+    opacity: 0.7;
+}
+.right-content{
+    background-color:  rgb(246, 247, 248);
+}
+.right-content-style{
+    margin: 3em 2em;
+}
+.right-content h1{
+    color: rgba(131, 72, 5, 0.897);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1.5em 0;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+
+}
+.right-content h2{
+    font-size: 1.5rem;
+    margin-bottom: 1.3em;
+}
+form{
+    margin-left: 3em;
+    margin-bottom: 1.3em;
+}
+label input{
+    margin-bottom: 1.3em;
+    
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(127, 122, 122, 0.941);
+    width: 100%;
+    padding: 0.8em;
+    background-color: rgb(246, 247, 248);
+}
+label{
+    margin-top: 1.5em;
+}
+.forgot-password{
+    text-align: right;
+    margin-top: 0;
+}
+button{
+    display: inline-block;
+    background-color: antiquewhite !important;
+    color: black;
+    width: 30%;
+    padding: 0,5em;
+    cursor: pointer;
+    transition: background-color 2s ease-in-out;
+   
+}
+.button:hover{
+    background-color: red;
+}
+    
+.but{
+    text-align: center;
+    margin-top: 1.8em;
+
+}
+img{
+    width: 3%;
+    margin-right: 0.2em;
+}
+img span{
+    font-size: 0.3em;
+}
+.img-style{
+    text-align: center;
+    margin: 1.8em 0;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.footer span{
+    text-decoration: underline;
+    margin-left: 5px;
+    
+}
+
+
+
+
