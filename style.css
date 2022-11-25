@@ -16,7 +16,7 @@ body{
 }
 #image-part{
     position: relative;
-    background-image: url(/Bootstrap-assignment/images/philip-oroni-3er4tNSPPoc-unsplash.jpg);
+    background-image: url(/images/philip-oroni-3er4tNSPPoc-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 120vh;
